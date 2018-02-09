@@ -10,9 +10,9 @@ for i in range(n-1):
 		if l[i]==l[j]:
 			m=m+1
 	if m==1:
-		l[n]=1
+		b=1
 		print(l[i])
-if l[n]!=1:
+if b!=1:
 	print("unique")
 		
 
