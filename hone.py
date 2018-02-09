@@ -1,9 +1,9 @@
 n=int(input(''))
 l=[]
+b=0
 for i in range(n):
 	l.append(int(input('')))
 l=sorted(l)
-print(l)
 for i in range(n-1):
 	m=0
 	for j in range(i+1,n):
